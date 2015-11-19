@@ -7,3 +7,9 @@ exports.index = function(req, res) {
     title: 'Home'
   });
 };
+
+exports.typing = function(req, res) {
+  res.render('typing', {
+    title: 'Typing Game'
+  });
+};
